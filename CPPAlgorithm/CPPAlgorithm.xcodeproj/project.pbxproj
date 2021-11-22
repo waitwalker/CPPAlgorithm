@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AC5D30D274B725B0023B7B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D30C274B725B0023B7B7 /* main.cpp */; };
+		6AC5D318274B75E30023B7B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D317274B75E30023B7B7 /* main.cpp */; };
 		BF9E422927488D8400C0F5A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF9E422827488D8400C0F5A3 /* main.cpp */; };
 		BFD924C1274288AC005B7DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD924C0274288AC005B7DCC /* main.cpp */; };
 		BFD924E22742897D005B7DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD924E12742897D005B7DCC /* main.cpp */; };
@@ -15,6 +16,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6AC5D308274B725A0023B7B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6AC5D313274B75E30023B7B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -55,6 +65,8 @@
 /* Begin PBXFileReference section */
 		6AC5D30A274B725A0023B7B7 /* P1425 小鱼的游泳时间 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1425 小鱼的游泳时间"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC5D30C274B725B0023B7B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AC5D315274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P4413 [COCI2006-2007#2] R2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC5D317274B75E30023B7B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF9E422627488D8400C0F5A3 /* P1421小玉买文具 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1421小玉买文具"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9E422827488D8400C0F5A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFD924BD274288AC005B7DCC /* CPPAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +77,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6AC5D307274B725A0023B7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC5D312274B75E30023B7B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,6 +122,14 @@
 			path = "P1425 小鱼的游泳时间";
 			sourceTree = "<group>";
 		};
+		6AC5D316274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5D317274B75E30023B7B7 /* main.cpp */,
+			);
+			path = "P4413 [COCI2006-2007#2] R2";
+			sourceTree = "<group>";
+		};
 		BF9E422727488D8400C0F5A3 /* P1421小玉买文具 */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +145,7 @@
 				BFD924E02742897D005B7DCC /* 1两数之和 */,
 				BF9E422727488D8400C0F5A3 /* P1421小玉买文具 */,
 				6AC5D30B274B725B0023B7B7 /* P1425 小鱼的游泳时间 */,
+				6AC5D316274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 				BFD924BE274288AC005B7DCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +157,7 @@
 				BFD924DF2742897D005B7DCC /* 1两数之和 */,
 				BF9E422627488D8400C0F5A3 /* P1421小玉买文具 */,
 				6AC5D30A274B725A0023B7B7 /* P1425 小鱼的游泳时间 */,
+				6AC5D315274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +196,23 @@
 			name = "P1425 小鱼的游泳时间";
 			productName = "P1425 小鱼的游泳时间";
 			productReference = 6AC5D30A274B725A0023B7B7 /* P1425 小鱼的游泳时间 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6AC5D314274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC5D319274B75E30023B7B7 /* Build configuration list for PBXNativeTarget "P4413 [COCI2006-2007#2] R2" */;
+			buildPhases = (
+				6AC5D311274B75E30023B7B7 /* Sources */,
+				6AC5D312274B75E30023B7B7 /* Frameworks */,
+				6AC5D313274B75E30023B7B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P4413 [COCI2006-2007#2] R2";
+			productName = "P4413 [COCI2006-2007#2] R2";
+			productReference = 6AC5D315274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */;
 			productType = "com.apple.product-type.tool";
 		};
 		BF9E422527488D8400C0F5A3 /* P1421小玉买文具 */ = {
@@ -232,6 +278,9 @@
 					6AC5D309274B725A0023B7B7 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					6AC5D314274B75E30023B7B7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					BF9E422527488D8400C0F5A3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -260,6 +309,7 @@
 				BFD924DE2742897D005B7DCC /* 1两数之和 */,
 				BF9E422527488D8400C0F5A3 /* P1421小玉买文具 */,
 				6AC5D309274B725A0023B7B7 /* P1425 小鱼的游泳时间 */,
+				6AC5D314274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC5D30D274B725B0023B7B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC5D311274B75E30023B7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC5D318274B75E30023B7B7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +369,26 @@
 			name = Debug;
 		};
 		6AC5D30F274B725B0023B7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XP6U9X87N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AC5D31A274B75E30023B7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XP6U9X87N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AC5D31B274B75E30023B7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +577,15 @@
 			buildConfigurations = (
 				6AC5D30E274B725B0023B7B7 /* Debug */,
 				6AC5D30F274B725B0023B7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC5D319274B75E30023B7B7 /* Build configuration list for PBXNativeTarget "P4413 [COCI2006-2007#2] R2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC5D31A274B75E30023B7B7 /* Debug */,
+				6AC5D31B274B75E30023B7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
