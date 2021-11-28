@@ -10,6 +10,7 @@
 		6AC5D30D274B725B0023B7B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D30C274B725B0023B7B7 /* main.cpp */; };
 		6AC5D318274B75E30023B7B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D317274B75E30023B7B7 /* main.cpp */; };
 		6AC5D323274B76D40023B7B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D322274B76D40023B7B7 /* main.cpp */; };
+		BF0DD300275321050047F532 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0DD2FF275321050047F532 /* main.cpp */; };
 		BF9E422927488D8400C0F5A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF9E422827488D8400C0F5A3 /* main.cpp */; };
 		BFD924C1274288AC005B7DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD924C0274288AC005B7DCC /* main.cpp */; };
 		BFD924E22742897D005B7DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD924E12742897D005B7DCC /* main.cpp */; };
@@ -35,6 +36,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		6AC5D31E274B76D40023B7B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BF0DD2FB275321050047F532 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -79,6 +89,8 @@
 		6AC5D317274B75E30023B7B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6AC5D320274B76D40023B7B7 /* P1420 最长连号 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1420 最长连号"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC5D322274B76D40023B7B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF0DD2FD275321050047F532 /* P2956机器人犁田 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P2956机器人犁田"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0DD2FF275321050047F532 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF9E422627488D8400C0F5A3 /* P1421小玉买文具 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1421小玉买文具"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9E422827488D8400C0F5A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFD924BD274288AC005B7DCC /* CPPAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +115,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6AC5D31D274B76D40023B7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0DD2FA275321050047F532 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,6 +176,14 @@
 			path = "P1420 最长连号";
 			sourceTree = "<group>";
 		};
+		BF0DD2FE275321050047F532 /* P2956机器人犁田 */ = {
+			isa = PBXGroup;
+			children = (
+				BF0DD2FF275321050047F532 /* main.cpp */,
+			);
+			path = "P2956机器人犁田";
+			sourceTree = "<group>";
+		};
 		BF9E422727488D8400C0F5A3 /* P1421小玉买文具 */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +201,7 @@
 				6AC5D30B274B725B0023B7B7 /* P1425 小鱼的游泳时间 */,
 				6AC5D316274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 				6AC5D321274B76D40023B7B7 /* P1420 最长连号 */,
+				BF0DD2FE275321050047F532 /* P2956机器人犁田 */,
 				BFD924BE274288AC005B7DCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +215,7 @@
 				6AC5D30A274B725A0023B7B7 /* P1425 小鱼的游泳时间 */,
 				6AC5D315274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 				6AC5D320274B76D40023B7B7 /* P1420 最长连号 */,
+				BF0DD2FD275321050047F532 /* P2956机器人犁田 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +290,23 @@
 			productReference = 6AC5D320274B76D40023B7B7 /* P1420 最长连号 */;
 			productType = "com.apple.product-type.tool";
 		};
+		BF0DD2FC275321050047F532 /* P2956机器人犁田 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0DD303275321050047F532 /* Build configuration list for PBXNativeTarget "P2956机器人犁田" */;
+			buildPhases = (
+				BF0DD2F9275321050047F532 /* Sources */,
+				BF0DD2FA275321050047F532 /* Frameworks */,
+				BF0DD2FB275321050047F532 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P2956机器人犁田";
+			productName = "P2956机器人犁田";
+			productReference = BF0DD2FD275321050047F532 /* P2956机器人犁田 */;
+			productType = "com.apple.product-type.tool";
+		};
 		BF9E422527488D8400C0F5A3 /* P1421小玉买文具 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF9E422C27488D8400C0F5A3 /* Build configuration list for PBXNativeTarget "P1421小玉买文具" */;
@@ -330,6 +376,9 @@
 					6AC5D31F274B76D40023B7B7 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					BF0DD2FC275321050047F532 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					BF9E422527488D8400C0F5A3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -360,6 +409,7 @@
 				6AC5D309274B725A0023B7B7 /* P1425 小鱼的游泳时间 */,
 				6AC5D314274B75E30023B7B7 /* P4413 [COCI2006-2007#2] R2 */,
 				6AC5D31F274B76D40023B7B7 /* P1420 最长连号 */,
+				BF0DD2FC275321050047F532 /* P2956机器人犁田 */,
 			);
 		};
 /* End PBXProject section */
@@ -386,6 +436,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC5D323274B76D40023B7B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0DD2F9275321050047F532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0DD300275321050047F532 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +529,26 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XP6U9X87N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF0DD301275321050047F532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5ZJ5W7ZL3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0DD302275321050047F532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5ZJ5W7ZL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -673,6 +751,15 @@
 			buildConfigurations = (
 				6AC5D325274B76D40023B7B7 /* Debug */,
 				6AC5D326274B76D40023B7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0DD303275321050047F532 /* Build configuration list for PBXNativeTarget "P2956机器人犁田" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0DD301275321050047F532 /* Debug */,
+				BF0DD302275321050047F532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
